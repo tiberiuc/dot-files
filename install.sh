@@ -13,3 +13,5 @@ cp ./mc/panels.ini ${CONFIG_MC}/
 
 MC_SKIN_FOLDER=/usr/share/mc/skins
 sudo cp ./mc/solarized.ini ${MC_SKIN_FOLDER}/
+
+git config --global alias.co checkout
