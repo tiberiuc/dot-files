@@ -30,7 +30,7 @@ ZSH=$HOME/.oh-my-zsh
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(extract git git-flow vi-mode history-substring-search rake brew osx vagrant)
+plugins=(extract git git-flow vi-mode history-substring-search rake brew osx vagrant tmux)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -59,3 +59,7 @@ alias feature='git flow feature'
 alias hotfix='git flow hotfix'
 alias fstart='git flow feature start'
 alias ffinish='git flow feature finish'
+alias vu='vagrant up'
+alias vs='vagrant ssh'
+alias vh='vagrant halt'
+
