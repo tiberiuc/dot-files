@@ -1,17 +1,10 @@
 #!/bin/bash
 
-cp zshrc      ~/.zshrc
-cp dir-colors ~/.dir-colors
+cd /tmp
 
+git clone https://github.com/tiberiuc/dot-files.git
 
-CONFIG_MC=~/.config/mc
-
-mkdir -p ${CONFIG_MC}
-
-cp ./mc/ini        ${CONFIG_MC}/ 
-cp ./mc/panels.ini ${CONFIG_MC}/
-
-MC_SKIN_FOLDER=/usr/share/mc/skins
-sudo cp ./mc/solarized.ini ${MC_SKIN_FOLDER}/
-
-git config --global alias.co checkout
+cd /tmp/dot-files
+./install-configs.sh
+cd ..
+rm -rf ./dot-files
