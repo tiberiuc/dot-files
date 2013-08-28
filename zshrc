@@ -37,7 +37,7 @@ source $ZSH/oh-my-zsh.sh
 eval `dircolors ~/.dir_colors`
 
 # Customize to your needs...
-export PATH=HOME/.local/bin:$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+export PATH=$HOME/.local/bin:$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 . /home/vagrant/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
 
