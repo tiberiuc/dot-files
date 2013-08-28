@@ -39,6 +39,8 @@ eval `dircolors ~/.dir_colors`
 # Customize to your needs...
 export PATH=$HOME/.local/bin:$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
+export VIRTUAL_ENV_DISABLE_PROMPT=true
+
 . /home/vagrant/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
 
 alias v='vim'

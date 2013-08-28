@@ -19,3 +19,5 @@ git config --global alias.co checkout
 git config --global push.default simple
 
 cp ts ~/ts
+
+cp -R ./powerline ~/.config/
