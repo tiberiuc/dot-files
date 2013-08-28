@@ -10,7 +10,7 @@ cd /tmp
 rm -rf ./dot-files
 
 
-git clone https://github.com/tiberiuc/vim-config.gif
+git clone https://github.com/tiberiuc/vim-config.git
 cd /tmp/vim-config
 ./install.sh
 cd /tmp
