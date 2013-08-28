@@ -15,3 +15,4 @@ MC_SKIN_FOLDER=/usr/share/mc/skins
 sudo cp ./mc/solarized.ini ${MC_SKIN_FOLDER}/
 
 git config --global alias.co checkout
+git config --global push.default simple
