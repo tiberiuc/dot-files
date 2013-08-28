@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cp zshrc      ~/.zshrc
-cp dir-colors ~/.dir-colors
+cp dir_colors ~/.dir_colors
 
 
 CONFIG_MC=~/.config/mc
