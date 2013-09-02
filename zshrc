@@ -43,6 +43,9 @@ export VIRTUAL_ENV_DISABLE_PROMPT=true
 
 . ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
 
+export TERM=screen-256color-bce
+
+export tmux='export TERM=screen-256color-bce; tmux -2'
 alias v='vim'
 alias m='mc'
 alias c='cd'

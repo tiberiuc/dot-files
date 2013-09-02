@@ -3,6 +3,7 @@
 cp zshrc      ~/.zshrc
 cp dir_colors ~/.dir_colors
 cp tmux.conf  ~/.tmux.conf
+cp  ctags  ~/.ctags
 
 
 CONFIG_MC=~/.config/mc

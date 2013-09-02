@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export TERM=screen-256color-bce
+
 tmux has-session -t  sitedity 2>/dev/null
 
 if [ "$?" -eq 1 ]; then
