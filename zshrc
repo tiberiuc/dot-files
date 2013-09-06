@@ -65,4 +65,6 @@ alias ffinish='git flow feature finish'
 alias vu='vagrant up'
 alias vs='vagrant ssh'
 alias vh='vagrant halt'
+alias r='rake'
+alias rc='rake clean'
 
