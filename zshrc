@@ -67,4 +67,7 @@ alias vs='vagrant ssh'
 alias vh='vagrant halt'
 alias r='rake'
 alias rc='rake clean'
+alias dev='git checkout develop'
+alias master='git checkout master'
+alias merge='git merge'
 
