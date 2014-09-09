@@ -6,5 +6,5 @@ System dot files
 ### Run ###
 
   ```
-  curl https://raw.github.com/tiberiuc/dot-files/master/install.sh | sh
+  curl https://raw.githubusercontent.com/tiberiuc/dot-files/master/install.sh | sh
   ```
