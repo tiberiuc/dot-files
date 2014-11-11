@@ -41,7 +41,8 @@ export PATH=$HOME/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/
 
 export VIRTUAL_ENV_DISABLE_PROMPT=true
 
-. ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
+#. ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
+source ~/.shell-prompt.sh
 
 export TERM=xterm-256color
 

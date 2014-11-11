@@ -3,6 +3,8 @@
 cp zshrc      ~/.zshrc
 cp dir_colors ~/.dir_colors
 cp tmux.conf  ~/.tmux.conf
+cp tmux-airline.conf  ~/.tmux-airline.conf
+cp shell-prompt.sh  ~/.shell-prompt.sh
 cp  ctags  ~/.ctags
 
 
