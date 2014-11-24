@@ -9,6 +9,8 @@ cp shell-prompt.sh    ~/.shell-prompt.sh
 cp ctags              ~/.ctags
 cp set-dwm-status.sh ~/
 
+sudo cp mackbackl.sh /usr/bin/mackbackl
+
 
 CONFIG_MC=~/.config/mc
 CONFIG_URXVT=~/.urxvt
