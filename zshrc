@@ -71,4 +71,7 @@ alias rc='rake clean'
 alias dev='git checkout develop'
 alias master='git checkout master'
 alias merge='git merge'
-
+alias d='docker'
+alias dr='docker run'
+alias di='docker images'
+alias ds='docker ps'
