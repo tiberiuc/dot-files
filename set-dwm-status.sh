@@ -53,7 +53,7 @@ section () {
 }
 
 section_memory () {
-    echo "$(section 'black' $base01 "$(memory)")"
+    echo "$(section $base02 $base01 "$(memory)")"
 }
 
 
@@ -69,10 +69,7 @@ section_date () {
     echo "$(section $base1 $base00 "$(show_date)")"
 }
 
-status="$(memory) | $(cpu) | $(power) | $(show_date)"
 status="$(section_memory)$(section_cpu)$(section_power)$(section_date)"
-
-echo $status
 
 export DISPLAY=:0; xsetroot -name "$status" > /dev/null 2>&1
 
