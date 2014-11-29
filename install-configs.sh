@@ -18,12 +18,14 @@ sudo cp mackbackl.sh /usr/bin/mackbackl
 CONFIG_MC=~/.config/mc
 CONFIG_URXVT=~/.urxvt
 CONFIG_DWM=~/.dwm
+CONFIG_FONTS=~/.fonts
 #CONFIG_AWESOME=~/.config/awesome
 #CONFIG_TERMINATOR=~/.config/terminator
 
 mkdir -p ${CONFIG_MC}
 mkdir -p ${CONFIG_URXVT}
 mkdir -p ${CONFIG_DWM}
+mkdir -p ${CONFIG_FONTS}
 #mkdir -p ${CONFIG_AWESOME}
 #mkdir -p ${CONFIG_TERMINATOR}
 
@@ -32,6 +34,7 @@ cp ./mc/panels.ini ${CONFIG_MC}/
 
 cp -r ./urxvt/* ${CONFIG_URXVT}/
 cp -r ./dwm/* ${CONFIG_DWM}/
+cp -r ./fonts/* ${CONFIG_FONTS}/
 #cp -r ./awesome/* ${CONFIG_AWESOME}/
 #cp -r ./terminator/* ${CONFIG_TERMINATOR}/
 
