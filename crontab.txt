@@ -1,1 +1,1 @@
-* * * * * bash $HOME/set-dwm-status.sh
+* * * * * bash $HOME/scripts/set-dwm-status.sh
