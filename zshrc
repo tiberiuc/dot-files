@@ -41,6 +41,41 @@ export PATH=$HOME/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/
 
 export VIRTUAL_ENV_DISABLE_PROMPT=true
 
+#enable vi keybindings
+bindkey -v
+
+# Make 'z' work like autojump.
+alias j="z"
+# Slash after directories, colorize, KB,MB,... when appropriate
+alias ls='ls -GFh'
+
+alias -g ...='../..'
+alias -g ....='../../..'
+alias -g .....='../../../..'
+
+# Disable setting of terminal titles.
+DISABLE_AUTO_TITLE="true"
+
+# Show red dots while waiting for completion
+COMPLETION_WAITING_DOTS="true"
+
+###############################################################################
+# Enable history substring search with vi and emacs keys. Much more intuitive!
+# From https://github.com/zsh-users/zsh-history-substring-search/issues/12
+bindkey -M emacs "^P" history-substring-search-up
+bindkey -M emacs "^N" history-substring-search-down
+bindkey -M vicmd "k" history-substring-search-up
+bindkey -M vicmd "j" history-substring-search-down
+
+for keymap in 'emacs' 'viins'; do
+    bindkey -M "$keymap" '\e[A' history-substring-search-up
+    bindkey -M "$keymap" '\e[B' history-substring-search-down
+done
+unset keymap
+
+# Remove the ugly pink default color!
+HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_FOUND='bg=green,fg=white,bold'
+
 #. ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
 source ~/.shell-prompt.sh
 
