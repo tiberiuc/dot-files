@@ -110,3 +110,7 @@ alias d='docker'
 alias dr='docker run'
 alias di='docker images'
 alias ds='docker ps'
+
+
+# Start tmux at login
+tmux attach || tmux
