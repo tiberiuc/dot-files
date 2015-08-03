@@ -113,4 +113,6 @@ alias ds='docker ps'
 
 
 # Start tmux at login
-tmux attach || tmux
+if [ -z $TMUX ]; then
+    tmux attach || tmux
+fi
