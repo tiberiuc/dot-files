@@ -79,6 +79,18 @@ HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_FOUND='bg=green,fg=white,bold'
 #. ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
 source ~/.shell-prompt.sh
 
+fancy-ctrl-z () {
+  if [[ $#BUFFER -eq 0 ]]; then
+    BUFFER="fg"
+    zle accept-line
+  else
+    zleush-input
+    zle clear-screen
+  fi
+}
+zle -N fancy-ctrl-z
+bindkey '^Z' fancy-ctrl-z
+
 export TERM=xterm-256color
 
 alias tmux='tmux -2'
