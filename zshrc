@@ -123,6 +123,7 @@ alias dr='docker run'
 alias di='docker images'
 alias ds='docker ps'
 
+export EDITOR=vim
 
 # Start tmux at login
 if [ -z $TMUX ]; then
