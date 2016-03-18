@@ -34,7 +34,12 @@ plugins=(extract git git-flow vi-mode history-substring-search rake brew osx vag
 
 source $ZSH/oh-my-zsh.sh
 
-eval `dircolors ~/.dir_colors`
+command_exists () {
+  type "$1" &> /dev/null ;
+}
+if command_exists dircolors; then
+  eval `dircolors ~/.dir_colors`
+fi
 
 # Customize to your needs...
 export PATH=$HOME/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH
@@ -126,6 +131,8 @@ alias ds='docker ps'
 export EDITOR=vim
 
 # Start tmux at login
-if [ -z $TMUX ]; then
+if [ -z $MC_SID ]; then
+  if [ -z $TMUX ]; then
     tmux attach || tmux
+  fi
 fi
