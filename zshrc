@@ -99,7 +99,7 @@ bindkey '^Z' fancy-ctrl-z
 export TERM=xterm-256color
 
 alias tmux='tmux -2'
-alias v='vim'
+alias v='nvim'
 alias m='mc'
 alias c='cd'
 alias co='git checkout'
@@ -128,7 +128,7 @@ alias dr='docker run'
 alias di='docker images'
 alias ds='docker ps'
 
-export EDITOR=vim
+export EDITOR=nvim
 
 # Start tmux at login
 if [ -z $MC_SID ]; then
