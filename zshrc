@@ -133,6 +133,8 @@ export EDITOR=nvim
 # Start tmux at login
 if [ -z $MC_SID ]; then
   if [ -z $TMUX ]; then
-    tmux attach || tmux
+    if [[ ! "$OSTYPE" == "darwin"*  ]]; then
+      tmux attach || tmux
+    fi
   fi
 fi
