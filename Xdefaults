@@ -32,7 +32,7 @@ URxvt.allow_bold:           false
 !URxvt*font: xft:Monospace:pixelsize=12
 !URxvt*boldFont: xft:Monospace:pixelsize=12
 !URxvt*font: xft:DejaVu\ Sans\ Mono\ for\ Powerline:pixelsize=13
-URxvt*font: xft:DejaVu\ Sans\ Mono\ for\ Powerline:pixelsize=13,style=Bold
+URxvt*font: xft:DejaVu\ Sans\ Mono\ for\ Powerline:pixelsize=15,style=Bold
 !URxvt*boldFont: xft:DejaVu\ Sans\ Mono\ for\ Powerline:pixelsize=12,style=Bold
 !URxvt*boldFont: xft:Terminess\ Powerline:pixelsize=12
 
