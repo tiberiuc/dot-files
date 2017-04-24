@@ -128,6 +128,8 @@ alias dr='docker run'
 alias di='docker images'
 alias ds='docker ps'
 
+unalias gm
+
 export EDITOR=nvim
 
 
