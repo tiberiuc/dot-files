@@ -127,6 +127,8 @@ alias d='docker'
 alias dr='docker run'
 alias di='docker images'
 alias ds='docker ps'
+alias nn='/usr/sbin/n'
+alias n='nnn'
 
 unalias gm
 
