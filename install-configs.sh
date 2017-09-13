@@ -26,6 +26,10 @@ CONFIG_SCRIPTS=~/scripts
 #CONFIG_AWESOME=~/.config/awesome
 #CONFIG_TERMINATOR=~/.config/terminator
 
+rm -rf ~/.tmux/plugins/tpm
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+
 mkdir -p ${CONFIG_MC}
 mkdir -p ${CONFIG_URXVT}
 mkdir -p ${CONFIG_DWM}
