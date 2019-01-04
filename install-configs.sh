@@ -8,6 +8,7 @@ cp tmux-airline.conf  ~/.tmux-airline.conf
 cp shell-prompt.sh    ~/.shell-prompt.sh
 cp ctags              ~/.ctags
 cp Xmodmap            ~/.Xmodmap
+cp xbindkeysrc            ~/.xbindkeysrc
 cp xinitrc            ~/.xinitrc
 cp zprofile           ~/.zprofile
 #cp set-dwm-status.sh ~/
@@ -55,6 +56,8 @@ crontab ./crontab.txt
 
 git config --global alias.co checkout
 git config --global push.default simple
+
+xbindkeys --poll-rc
 
 
 #cp -R ./powerline ~/.config/

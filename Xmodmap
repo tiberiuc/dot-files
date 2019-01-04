@@ -1,4 +1,9 @@
 pointer = 1 2 3 5 4 6 7 8 9 10 11 12 13 14 15 16
-remove mod4 = Super_L
-keysym Super_L = Control_L
-add Control = Control_L
+!remove mod4 = Super_L
+!keysym Super_L = Control_L
+!add Control = Control_L
+
+clear Control
+clear Mod4
+add Control = Super_L Super_R
+add Mod4    = Control_L Control_R
