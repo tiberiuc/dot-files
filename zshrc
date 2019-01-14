@@ -123,12 +123,18 @@ alias rc='rake clean'
 alias dev='git checkout develop'
 alias master='git checkout master'
 alias merge='git merge'
-alias d='docker'
-alias dr='docker run'
-alias di='docker images'
-alias ds='docker ps'
 alias nn='/usr/sbin/n'
 alias n='nnn'
+
+# docker aliases
+alias d='docker'
+alias dps='docker ps -a'
+alias di='docker images'
+alias drm='docker rm -f'
+alias drmi='docker rmi -f'
+alias dr='docker run'
+alias dcu='docker-compose up'
+alias dcd='docker-compose down'
 
 unalias gm
 
