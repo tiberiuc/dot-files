@@ -128,11 +128,16 @@ alias n='nnn'
 
 # docker aliases
 alias d='docker'
+alias de='docker exec -it'
+alias dl='docker logs -f'
 alias dps='docker ps -a'
+alias db='docker build'
 alias di='docker images'
 alias drm='docker rm -f'
 alias drmi='docker rmi -f'
 alias dr='docker run'
+alias dc='docker-compose'
+alias dcl='docker-compose logs -f'
 alias dcu='docker-compose up'
 alias dcd='docker-compose down'
 
