@@ -138,7 +138,7 @@ alias drmi='docker rmi -f'
 alias dr='docker run'
 alias dc='docker-compose'
 alias dcl='docker-compose logs -f'
-alias dcu='docker-compose up'
+alias dcu='docker-compose up -d'
 alias dcd='docker-compose down'
 
 unalias gm
