@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # icons at  https://www.dropbox.com/s/9iysh2i0gadi4ic/icons.pdf
 
@@ -20,6 +20,8 @@ blue="#268bd2"
 cyan="#2aa198"
 green="#859900"
 
+export DISPLAY=:0
+export XDG_RUNTIME_DIR=/run/user/`id -u`
 
 memory () {
     echo -e '\uf16c ' $(free -m | grep '^Mem' | awk '{$2/=1024;$3/=1024;printf "%.2f / %.2f GB",$3,$2 }')
@@ -31,6 +33,11 @@ cpu () {
 
 power () {
     echo -e '\uf215 ' $(upower -i `upower -e | grep BAT` | grep --color=never -E "percentage" | cut -d " " -f 15)
+}
+
+volume () {
+  # echo  -e `` $(amixer get Master | awk -F'[][]' 'END{print $4":"$2 }')
+  echo  -e '\uf026' $(amixer sget Master | awk -F'[][]' 'END{print $4":"$2 }')
 }
 
 
@@ -56,22 +63,27 @@ section_memory () {
     echo "$(section $base02 $base01 "$(memory)")"
 }
 
-
-section_cpu () {
-    echo "$(section $base01 $base02 "$(cpu)")"
+section_volume () {
+    echo "$(section $base01 $base02 "$(volume)")"
 }
 
+
 section_power () {
-    echo "$(section $base01 $base1 "$(power)")"
+    echo "$(section $base02 $base00 "$(power)")"
 }
 
 section_date () {
-    echo "$(section $base1 $base00 "$(show_date)")"
+    echo "$(section $base00 $base02 "$(show_date)")"
 }
 
-status="$(section_memory)$(section_cpu)$(section_power)$(section_date)"
+# section_cpu () {
+#     echo "$(section $base01 $base02 "$(cpu)")"
+# }
 
-status="$(section_memory)$(section_power)$(section_date)"
+# status="$(section_memory)$(section_volume)$(section_cpu)$(section_power)$(section_date)"
+status="$(section_memory)$(section_volume)$(section_power)$(section_date)"
+
+# status="$(section_memory)$(section_power)$(section_date)"
 echo $status
 
 export DISPLAY=:0; xsetroot -name "$status" > /dev/null 2>&1
