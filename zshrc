@@ -98,6 +98,42 @@ bindkey '^Z' fancy-ctrl-z
 
 export TERM=xterm-256color
 
+# gitall
+function gall () {
+  git add .
+  if [ "$1" != "" ] # or better, if [ -n "$1" ]
+  then
+    git commit -am "$1"
+  else
+    git commit -am update
+  fi
+  git push
+}
+
+function rssh () {
+  local -a arr
+
+  arr=()
+
+  local addr=("${(@s/:/)1}")
+  arr+=$addr[1]
+  if [ "${addr[2]}" != "" ]
+  then
+    arr+="-p"
+    arr+=$addr[2]
+  fi
+
+  local sPORTS="${@:2}"
+
+  for PORT in $sPORTS; do
+    arr+="-L"
+    arr+="${PORT}:localhost:${PORT}"
+  done
+
+  ssh $arr
+}
+
+alias rssh='rssh'
 alias tmux='tmux -2'
 alias v='nvim'
 alias m='mc'
@@ -105,8 +141,10 @@ alias c='cd'
 alias co='git checkout'
 alias up='git up'
 alias push='git push'
+alias pull='git pull'
 alias add='git add .'
 alias com='git commit -am'
+alias gall='gall'
 alias g='git'
 alias gf='git flow'
 alias status='git status'
@@ -137,6 +175,9 @@ alias drm='docker rm -f'
 alias drmi='docker rmi -f'
 alias dr='docker run'
 alias dco='docker-compose'
+alias dcr='dcr(){ docker-compose run $1 sh  }; dcr'
+alias dce='dce(){ docker-compose exec $1 sh  }; dce'
+alias dcre='docker-compose restart'
 alias dcl='docker-compose logs -f'
 alias dcu='docker-compose up -d'
 alias dcd='docker-compose down'
