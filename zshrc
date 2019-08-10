@@ -123,9 +123,9 @@ function rssh () {
     arr+=$addr[2]
   fi
 
-  local sPORTS="${@:2}"
+  # local sPORTS="${@:2}"
 
-  for PORT in $sPORTS; do
+  for PORT in "${@:2}"; do
     arr+="-L"
     arr+="${PORT}:localhost:${PORT}"
   done
