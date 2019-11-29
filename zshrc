@@ -136,7 +136,7 @@ function rssh () {
 alias rssh='rssh'
 alias tmux='tmux -2'
 alias v='nvim'
-alias m='mc'
+alias m='vifm'
 alias c='cd'
 alias co='git checkout'
 alias up='git up'

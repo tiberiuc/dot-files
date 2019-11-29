@@ -20,6 +20,7 @@ sudo cp mackbackl.sh /usr/bin/mackbackl
 
 
 CONFIG_MC=~/.config/mc
+CONFIG_VIFM=~/.config/vifm
 CONFIG_URXVT=~/.urxvt
 CONFIG_DWM=~/.dwm
 CONFIG_FONTS=~/.fonts
@@ -32,6 +33,7 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 
 mkdir -p ${CONFIG_MC}
+mkdir -p ${CONFIG_VIFM}
 mkdir -p ${CONFIG_URXVT}
 mkdir -p ${CONFIG_DWM}
 mkdir -p ${CONFIG_FONTS}
@@ -42,6 +44,7 @@ mkdir -p ${CONFIG_SCRIPTS}
 cp ./mc/ini        ${CONFIG_MC}/
 cp ./mc/panels.ini ${CONFIG_MC}/
 
+cp -r ./vifm/* ${CONFIG_VIFM}/
 cp -r ./urxvt/* ${CONFIG_URXVT}/
 cp -r ./dwm/* ${CONFIG_DWM}/
 cp -r ./fonts/* ${CONFIG_FONTS}/

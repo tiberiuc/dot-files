@@ -1,0 +1,460 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'b
+	/home/tibi/bin/
+	..
+1575061881
+'d
+	/home/tibi/work/personal/dotconf
+	lib
+1575062385
+'h
+	/home/tibi/
+	..
+1575060657
+'m
+	/home/tibi
+	.NERDTreeBookmarks
+1575062344
+'w
+	/home/tibi/work/
+	..
+1575063724
+
+# Bookmarks:
+
+# TUI:
+ar
+q0
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/tibi/work/personal/dotconf
+	test
+7
+d/home/tibi/work/personal/dotconf/test
+	..
+0
+d/home/tibi/work/personal/dotconf
+	deps
+4
+d/home/tibi/work/personal/dotconf/deps
+	decimal
+6
+d/home/tibi/work/personal/dotconf/deps/decimal
+	..
+0
+d/home/tibi/work/personal/dotconf/deps
+	cowlib
+4
+d/home/tibi/work/personal/dotconf/deps/cowlib
+	ebin
+1
+d/home/tibi/work/personal/dotconf/deps/cowlib/ebin
+	..
+0
+d/home/tibi/work/personal/dotconf/deps/cowlib
+	..
+0
+d/home/tibi/work/personal/dotconf/deps
+	ecto_sql
+8
+d/home/tibi/work/personal/dotconf/deps/ecto_sql
+	..
+0
+d/home/tibi/work/personal/dotconf/deps
+	..
+0
+d/home/tibi/work/personal/dotconf
+	..
+0
+d/home/tibi/work/personal
+	..
+0
+d/home/tibi/work
+	netguru
+8
+d/home/tibi/work/netguru
+	apiary
+1
+d/home/tibi/work/netguru/apiary
+	..
+0
+d/home/tibi/work/netguru
+	moonfare
+3
+d/home/tibi/work/netguru/moonfare
+	..
+0
+d/home/tibi/work/netguru
+	..
+0
+d/home/tibi/work
+	personal
+10
+d/home/tibi/work/personal
+	..
+0
+d/home/tibi/work
+	personal
+10
+d/home/tibi/work/personal
+	dotconf
+1
+d/home/tibi/work/personal/dotconf
+	..
+0
+d/home/tibi/work/personal
+	dotconf
+1
+d/home/tibi/work/personal/dotconf
+	..
+0
+d/home/tibi/work/personal
+	..
+0
+d/home/tibi/work
+	..
+0
+d/home/tibi
+	yay
+16
+d/home/tibi/yay
+	..
+0
+d/home/tibi
+	go
+11
+d/home/tibi/go
+	pkg
+2
+d/home/tibi/go/pkg
+	..
+0
+d/home/tibi/go
+	..
+0
+d/home/tibi
+	scripts
+12
+d/home/tibi/scripts
+	personal(1)
+1
+d/home/tibi/scripts/personal(1)
+	dotconf
+1
+d/home/tibi/scripts/personal(1)/dotconf
+	..
+0
+d/home/tibi/scripts/personal(1)
+	..
+0
+d/home/tibi/scripts
+	..
+0
+d/home/tibi
+	selfiebooth
+13
+d/home/tibi/selfiebooth
+	..
+0
+d/home/tibi
+	go
+11
+d/home/tibi/go
+	..
+0
+d/home/tibi
+	Videos
+9
+d/home/tibi/Videos
+	..
+0
+d/home/tibi
+	Downloads
+4
+d/home/tibi/Downloads
+	..
+0
+d/home/tibi
+	work
+48
+d/home/tibi/work
+	besmart.host
+2
+d/home/tibi/work/besmart.host
+	..
+0
+d/home/tibi/work
+	selfiemirror
+13
+d/home/tibi/work/selfiemirror
+	..
+0
+d/home/tibi/work
+	..
+0
+d/home/tibi
+	.vimrc
+79
+d/home/tibi/.config/vifm
+	colors
+1
+d/home/tibi/.config/vifm/colors
+	..
+0
+d/home/tibi/.config/vifm
+	scripts
+2
+d/home/tibi/.config/vifm/scripts
+	..
+0
+d/home/tibi/.config/vifm
+	scripts
+2
+d/home/tibi/.config/vifm/scripts
+	README
+1
+d/home/tibi/.config/vifm
+	colors
+1
+d/home/tibi/.config/vifm/colors
+	..
+0
+d/home/tibi/.config/vifm
+	scripts
+2
+d/home/tibi/.config/vifm/scripts
+	..
+0
+d/home/tibi/.config/vifm
+	colors
+1
+d/home/tibi/.config/vifm/colors
+	..
+0
+d/home/tibi/.config/vifm
+	scripts
+2
+d/home/tibi/.config
+	vifm
+36
+d/home/tibi/.config/vifm
+	scripts
+2
+d/home/tibi/.config
+	vifm
+36
+d/home/tibi/.config/vifm
+	colors
+1
+d/home/tibi/.config
+	vifm
+36
+d/home/tibi/.config/vifm
+	colors
+1
+d/home/tibi/.config/vifm/colors
+	Default.vifm
+1
+d/home/tibi/.config/vifm
+	scripts
+2
+d/home/tibi/.config/vifm/scripts
+	README
+1
+d/home/tibi/.config/vifm
+	colors
+1
+d/home/tibi/.config/vifm/colors
+	Default.vifm
+1
+d/home/tibi/.config/vifm
+	scripts
+2
+d/home/tibi/.config/vifm/scripts
+	..
+0
+d/home/tibi/.config/vifm
+	scripts
+2
+d/home/tibi/.config
+	vifm
+36
+d/home/tibi/.config/vifm
+	colors
+1
+d/home/tibi/.config/vifm/colors
+	..
+0
+d/home/tibi/.config/vifm
+	colors
+1
+d/home/tibi/.config/vifm/colors
+	..
+0
+d/home/tibi/.config/vifm
+	..
+0
+d/home/tibi/.config
+	menus
+27
+d/home/tibi/.config/menus
+	..
+0
+d/home/tibi/.config
+	menus
+27
+d/home/tibi/.config/menus
+	..
+0
+d/home/tibi/.config
+	vifm
+36
+d/home/tibi/.config/vifm
+	colors
+1
+d
+
+# Right window history (oldest to newest):
+D/home/tibi/work/personal/dotconf
+	config
+3
+D/home/tibi
+	Craciun Elena 13.05.2019
+1
+D/home/tibi/work
+	personal
+10
+D/home/tibi/work/personal
+	dotconf
+1
+D/home/tibi/work/personal/dotconf
+	..
+0
+D/home/tibi
+	Craciun Elena 13.05.2019
+1
+D/home/tibi/work/personal
+	dotconf
+1
+D/home/tibi/work/personal/dotconf
+	..
+0
+D/home/tibi/work/personal
+	dotconf
+1
+D/home/tibi/work/personal/dotconf
+	config
+3
+D/home/tibi
+	Desktop
+2
+D/home/tibi/Desktop
+	..
+0
+D/home/tibi
+	Downloads
+4
+D/home/tibi/Downloads
+	..
+0
+D/home/tibi
+	Downloads
+4
+D/home/tibi/Downloads
+	a
+1
+D/home/tibi/Downloads/a
+	..
+0
+D/home/tibi/Downloads
+	a
+1
+D/home/tibi
+	work
+40
+D/home/tibi/work
+	personal
+10
+D/home/tibi/work/personal
+	dotconf
+1
+D/home/tibi/work/personal/dotconf
+	config
+3
+D/home/tibi
+	work
+40
+D/home/tibi/work/personal/dotconf
+	lib
+5
+D/home/tibi/work/personal/dotconf/lib
+	..
+0
+D/home/tibi/work/personal/dotconf
+	lib
+5
+D/home/tibi/work/personal
+	dotconf
+1
+D/home/tibi/work
+	personal
+10
+D/home/tibi/work/personal
+	dotconf
+1
+D/home/tibi/work
+	personal
+10
+D
+
+# Command line history (oldest to newest):
+:qa
+:help
+:m,arks
+:marks
+:s
+:shell
+:set vicmd=nvim
+:q
+
+# Search history (oldest to newest):
+/netg
+
+# Prompt history (oldest to newest):
+pgabi
+pArduinoJson-v6.11.2.h
+pDefault-1.vifm
+pDefault.vifm
+
+# Local filter history (oldest to newest):
+
+# Registers:
+""/home/tibi/.local/share/vifm/Trash/000_,arks
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/tibi/.local/share/vifm/Trash/000_personal(1)
+	/home/tibi/scripts/personal(1)
+t/home/tibi/.local/share/vifm/Trash/000_vifmrc
+	/home/tibi/Downloads/vifmrc
+t/home/tibi/.local/share/vifm/Trash/000_,arks
+	/home/tibi/.config/vifm/,arks
+
+# State:
+f
+i1
+[.0
+[F
+F
+I1
+].0
+]F
+s0
