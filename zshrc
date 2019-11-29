@@ -30,7 +30,7 @@ ZSH=$HOME/.oh-my-zsh
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(extract git git-flow vi-mode history-substring-search rake brew osx vagrant tmux gem go golang)
+plugins=(extract history git git-flow vi-mode history-substring-search brew osx tmux go golang mix npm docker web-search zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -185,6 +185,8 @@ alias dcd='docker-compose down'
 unalias gm
 
 export EDITOR=nvim
+
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=238'
 
 
 transfer() {
