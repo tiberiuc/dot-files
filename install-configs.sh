@@ -11,6 +11,7 @@ cp Xmodmap            ~/.Xmodmap
 cp xbindkeysrc            ~/.xbindkeysrc
 cp xinitrc            ~/.xinitrc
 cp zprofile           ~/.zprofile
+cp xsession           ~/.xsession
 #cp set-dwm-status.sh ~/
 #cp layout.sh ~/
 #cp xmodmap.sh ~/
