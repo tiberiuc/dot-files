@@ -76,6 +76,9 @@
 "amixer -D pulse sset Master 1+ toggle && /bin/bash /home/tibi/scripts/set-dwm-status.sh"
    XF86AudioMute
 
+"spotify_control playpause"
+  XF86AudioPlay
+
 ##################################
 # End of xbindkeys configuration #
 ##################################
