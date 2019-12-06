@@ -4,6 +4,10 @@
   title_transmit_bg_color = "#d30102"
 [keybindings]
   copy = <Alt>c
+  go_down = <Primary><Alt>Down
+  go_left = <Primary><Alt>Left
+  go_right = <Primary><Alt>Right
+  go_up = <Primary><Alt>Up
   paste = <Alt>v
 [layouts]
   [[default]]
